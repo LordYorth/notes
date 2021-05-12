@@ -11,7 +11,7 @@ public class PlayerDelegates : MonoBehaviour {
     Dead
   }
   
-  private state = State.Idle;
+  private State state = State.Idle;
   
   private Action attackFunction;
   
@@ -45,9 +45,15 @@ public class PlayerDelegates : MonoBehaviour {
   }
   
   private void PunchAttack(){
+    
   }
   
   private void SwordAttack(){
   
   }
+  
+  private void HandleMovement(){
+    
+  }
+    
 }
