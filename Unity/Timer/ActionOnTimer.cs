@@ -14,7 +14,7 @@ public class ActionOnTimer : MonoBehaviour {
   
   private void Update(){
     if (timer > 0f) {
-      timer -= Timer.deltaTime;
+      timer -= Time.deltaTime;
       
       if (IsTimerComplete()) {
         timerCallback();
